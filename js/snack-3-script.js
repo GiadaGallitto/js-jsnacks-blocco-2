@@ -4,7 +4,7 @@ const numbers= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 let somma = 0;
 
-let average;
+let average = 0;
 
 // Creo un ciclo in cui un elemento continua a sommarsi fino al decimo elemento della lista
 for(let i=0; i < 10; i++){
@@ -16,8 +16,8 @@ for(let i=0; i < 10; i++){
 
 }
 
-average = parseInt(somma / numbers.length) || 0;
-// In questo modo divido la somma già fatta dei primi 10 numeri, diviso per la lunghezza della lista, ottenendo quindi la media
+average = parseInt(somma / 10);
+// In questo modo divido la somma già fatta dei primi 10 numeri, diviso per la quantità di numeri (10), ottenendo quindi la media
 
 console.log(somma, average)
 
