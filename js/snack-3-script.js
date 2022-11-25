@@ -14,8 +14,10 @@ for(let i=0; i < 10; i++){
     somma+= numbers[i];
     // Il += in forma estesa vuol dire somma = somma + numbers[i]
 
-    average = parseInt(somma / numbers.length) || 0;
 }
+
+average = parseInt(somma / numbers.length) || 0;
+// In questo modo divido la somma già fatta dei primi 10 numeri, diviso per la lunghezza della lista, ottenendo quindi la media
 
 console.log(somma, average)
 
