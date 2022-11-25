@@ -9,6 +9,8 @@ for(let i=0; i < 6; i++){
     const userNumber = parseInt(prompt(`Inserisci un numero`))
     
     if(userNumber % 2 == 1){
-        console.log(userNumber)
+        numberList.push(userNumber)
     }
+
+    console.log(numberList)
 }
