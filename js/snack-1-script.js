@@ -12,5 +12,6 @@ for(let i=0; i < 6; i++){
         numberList.push(userNumber)
     }
 
-    console.log(numberList)
 }
+
+console.log(numberList)
