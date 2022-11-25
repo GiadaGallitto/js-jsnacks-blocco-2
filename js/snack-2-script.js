@@ -11,3 +11,13 @@ for(let i=0; i < 10; i++){
     }
 
 }
+
+// Potevo anche fare un solo if nel caso di un numero dispari con la modifica già scritta di sopra
+// e fuori mettere un console log con la variabile generale:
+// Così che se il numero è dispari, mi fa la modifica e poi lo stampa, se è pari, lo stampa e basta=
+
+// if(numeroUtente % 2 == 1){
+// numeroUtente++;
+// }
+
+// console.log(numeroUtente)
