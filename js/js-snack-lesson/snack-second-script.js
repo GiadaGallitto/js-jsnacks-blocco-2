@@ -14,7 +14,7 @@ let guests = [];
 
 // Creo un ciclo while in cui do la condizione dove finchè la lunghezza della lista non arriva ad un numero di elementi da me scelto
 // allora continuerà a creare randomicamente nomi e cognomi dalle due liste, per poi aggiungerli nella lista guests
-while (guests.length < 20){
+while (guests.length < 15){
     
     let randomNameIndex = Math.floor(Math.random()* names.length);
     // In questo modo posso generare un elemento randomico della lista names per tutta la sua lunghezza
@@ -31,3 +31,7 @@ while (guests.length < 20){
 
 console.log(guests);
 
+// Si poteva fare anche con for
+// for (let i=0; i< Math.ceil(Math.random() * 15) + 4; i++) {
+    // Qui va lo stesso contenuto del while
+// }
