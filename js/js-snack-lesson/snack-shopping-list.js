@@ -10,7 +10,7 @@ let shoppingList = [
 
 const ulElement = document.querySelector("ul.list-group");
 
-let i ;
+let i = 0;
 
 while (i < shoppingList.length){
     const newLiElement = document.createElement("li");
@@ -22,6 +22,8 @@ while (i < shoppingList.length){
     
     ulElement.append(newLiElement);
 
-    console.log(newLiElement)
+    console.log(newLiElement);
+
+    i++;
 }
 
