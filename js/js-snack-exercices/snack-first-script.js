@@ -2,8 +2,10 @@
 
 let number = 2;
 
-while (number == 1000){
-    number = (number * number);
-
+while (number < 1000){
+    number *= 2;
     console.log (number);
 }
+
+// Il *= 2 vale a dire --> number= number * 2
+// Quindi moltiplica se stesso col valore inserito
